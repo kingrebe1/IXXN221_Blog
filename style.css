@@ -17,6 +17,7 @@ nav {
 	display: flex;
 	justify-content: flex-end;
 	font-family: 'Roboto', sans-serif;
+	margin-right: 2%;
 }
 
 a {
@@ -73,4 +74,9 @@ img {
 	border-bottom-left-radius: 30%;
 	border-bottom-right-radius: 50%;
 	margin-bottom: 1%;
+}
+
+#content {
+	margin-top: 7%;
+	margin-left: 2%
 }
