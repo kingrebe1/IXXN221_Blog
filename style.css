@@ -1,17 +1,83 @@
 body {
 	margin: 0px;
-	background-color: #ffffff
+	background-color: #f0f0f0
 }
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	font-family: 'Roboto', sans-serif;
+}
+
+a {
+	margin: 2%;
+	text-decoration: none;
+	color: #7F010B;
+	font-size: 16px;
+	font-weight: 400;
+}	
+
+a:hover {
+	text-decoration: underline;
+	color: black;
+	font-weight: 500;
+}
+
 
 p{
-	font-family: helvetica;
+	font-family: 'Roboto', sans-serif;
+	padding-left: 2px;
 }
 
+hr {
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+h2 {
+	margin-left: 2%;
+	margin-bottom: 10%;
+	font-family: mrs-eaves-xl-serif,serif;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 28px;
+	margin-top: 0px;
+	margin-bottom: 2%;
+}
 
 h3 {
-	margin: 0;
-	font-family: helvetica;
+	/*margin-top: 5%;*/
+	margin-left: 2%;
+	font-family: mrs-eaves-xl-serif,serif;
+	font-weight: 400;
+	font-size: 18px;
+	font-style: italic;
+	/*padding-top: 2%;
+*/
 }
 
-#reflections {
+img {
+	width: 100px;
+	border-bottom-left-radius: 30%;
+	border-bottom-right-radius: 50%;
+	margin-left: 2%;
+	margin-bottom: 1%;
+}
+
+#picture {
+	position:absolute;
+	top: 20%;
+	left:2%;
+}
+
+#intro {
+	position:absolute;
+	top:40%;
+	left:2%;
+}
+
+#blurb {
+	position: absolute;
+	top: 60%;
+	left: 2%;
 }
