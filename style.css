@@ -1,5 +1,5 @@
 html {
-	height:100%;
+	min-height:100%;
 	width: 100%;
 }
 
@@ -11,7 +11,6 @@ body {
 	background-repeat: no-repeat;
 	background-image: linear-gradient(#f0f0f0, #f0f0f0, #f0f0f0, #f0f0f0, #bab6b6);
 }
-
 
 nav {
 	display: flex;
@@ -42,6 +41,7 @@ a:hover {
 
 p{
 	font-family: 'Roboto', sans-serif;
+	max-width: 66%;
 }
 
 hr {
@@ -89,7 +89,7 @@ h3 {
 
 #content {
 	margin-top: 1.5%;
-	margin-left: 2%;
+	margin-left: 15%;
 	display: flex;
 	flex-direction: column;
 }
@@ -98,4 +98,14 @@ h3 {
 	margin: 2%;
 	display: flex;
 	flex-direction: column;
+}
+
+.blog_image {
+	max-width: 66%;
+}
+
+#bold {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	margin-top: 2%;
 }
