@@ -6,8 +6,6 @@ html {
 body {
 	margin: 0;
 	padding: 0;
-	height:100%;
-	width: 100%;
 	background-repeat: no-repeat;
 	background-image: linear-gradient(#f0f0f0, #f0f0f0, #f0f0f0, #f0f0f0, #bab6b6);
 }
@@ -30,7 +28,7 @@ a {
 a:hover {
 	text-decoration: underline;
 	color: black;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 #home {
