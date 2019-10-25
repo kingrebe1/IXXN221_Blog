@@ -53,6 +53,7 @@ h1 {
 	font-family: mrs-eaves-xl-serif,serif;
 	font-style: italic;
 	margin-bottom: 3%;
+	font-size: 28px;
 }
 
 
@@ -69,7 +70,7 @@ h1 {
 h2 {
 	font-family: mrs-eaves-xl-serif,serif;
 	font-weight: 400;
-	font-size: 18px;
+	font-size: 24px;
 	font-style: italic;
 
 }
@@ -145,6 +146,8 @@ h3 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
 	margin-top: 2%;
+	margin-bottom: 1%;
+	font-size: 18px;
 }
 
 .current-page{
@@ -169,6 +172,12 @@ h3 {
 
 .post {
 	margin-top: 3%;
+}
+
+#ref_link{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
 }
 
 @media (max-width: 768px){

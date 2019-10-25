@@ -1,9 +1,7 @@
-let counter = 0;
-let randomNum = 0;
+let counter;
+let randomNum;
 
 function gameSetup() {
-	console.log(randomNum);
-	console.log(counter);
 	randomNum=Math.floor(Math.random() * 100) + 1;
  	counter=0;
  	document.getElementById('closeness').value="";
@@ -36,3 +34,5 @@ function testGuess() {
 };
 
 document.getElementsByClassName('testGuess')[0].onclick = testGuess;
+
+gameSetup();
