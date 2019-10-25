@@ -12,7 +12,6 @@ body {
 nav {
 	display: flex;
 	justify-content: flex-end;
-	font-family: 'Roboto', sans-serif;
 	margin-right: 2%;
 }
 
@@ -52,17 +51,15 @@ hr {
 h1 {
 	font-family: mrs-eaves-xl-serif,serif;
 	font-style: italic;
-	margin-bottom: 3%;
-	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 0;
+	font-size: 34px;
 }
 
 
 #home_heading {
-	margin-bottom: 2%;
-	font-family: mrs-eaves-xl-serif,serif;
-	font-weight: 600;
+	margin-bottom: 1%;
 	font-style: italic;
-	font-size: 28px;
 	margin-top: 0px;
 	padding-bottom: 0px;
 }
@@ -175,7 +172,6 @@ h3 {
 }
 
 #ref_link{
-	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
 }
@@ -201,5 +197,4 @@ h3 {
 	#picture_2 {
 		display: none;
 	}
-
 }
